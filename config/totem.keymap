@@ -271,7 +271,5 @@
   &kp LCTRL     &kp ESC     &kp SPACE   &kp TAB                                             &lt SYM RET &lt NUM BSPC &lt FUN DEL &tog 6
             >;
         };
-
-        };
     };
 };
