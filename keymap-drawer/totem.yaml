@@ -34,11 +34,11 @@ layers:
   - {t: Esc, h: Ctrl}
   - {t: ESC, h: MEDIA}
   - {t: SPACE, h: NAV}
-  - {t: TAB, h: MOUSE}
+  - {t: TAB, h: GAME}
   - {t: RET, h: SYM}
   - {t: BSPC, h: NUM}
   - {t: DEL, h: FUN}
-  - Hyper
+  - {t: GAME, h: toggle}
   NAV:
   - ''
   - ''
@@ -234,45 +234,45 @@ layers:
   - ''
   - {type: held}
   - Hyper
-  MOUSE:
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - LGUI
-  - LALT
+  GAME:
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - SQT
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - COMMA
+  - DOT
+  - FSLH
   - LCTRL
-  - LSHFT
-  - ''
-  - ← Move
-  - ↓ Move
-  - ↑ Move
-  - → Move
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ← Scroll
-  - ↓ Scroll
-  - ↑ Scroll
-  - → Scroll
-  - ''
-  - {t: Esc, h: Ctrl}
-  - ''
-  - ''
-  - {type: held}
-  - M Click
-  - L Click
-  - R Click
-  - Hyper
+  - ESC
+  - SPACE
+  - {t: TAB, type: held}
+  - {t: RET, h: SYM}
+  - {t: BSPC, h: NUM}
+  - {t: DEL, h: FUN}
+  - {t: GAME, h: toggle}
 combos:
 - p: [13, 16]
   k: '&caps_word'
