@@ -269,9 +269,9 @@ layers:
   - ESC
   - SPACE
   - {t: TAB, type: held}
-  - {t: RET, h: SYM}
-  - {t: BSPC, h: NUM}
-  - {t: DEL, h: FUN}
+  - RET
+  - BSPC
+  - DEL
   - {t: GAME, h: toggle}
 combos:
 - p: [13, 16]
